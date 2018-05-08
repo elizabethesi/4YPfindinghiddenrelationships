@@ -1,3 +1,6 @@
+"""This is the sorting function to pair up planes from the FAA registry with companies listed on the stock 
+exchange. Further information can be found in the image also uploaded to GitHub which is a flowchart of the decisions made
+to get to a set of results that minimises unwanted incorrect matched pairs and missing pairs."""
 
 def sorting_function(master, NYSE2, number):
 	remove_list =["CORPORATION", "CORP", "CO", "INCORPORATED", "INC", "COMPANY", "LLC", "LTD", "LIMITED"]
